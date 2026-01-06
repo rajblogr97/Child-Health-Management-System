@@ -13,6 +13,20 @@ Instant Validation: Immediate feedback on target weight (kg) and height (cm).
 User-Friendly Interface: Simple CLI (Command Line Interface) with clear instructions and error handling.
 
 
+Core Techniques Used:
+Hashed Data Storage: Uses Dictionaries for fast O(1) data retrieval.
+Nested Data: Stores multiple values (Height/Weight) as Lists inside dictionary keys.
+Input Normalization: Uses .lower() to handle both uppercase and lowercase inputs.
+Reference Switching: Dynamically assigns db to male_db or female_db based on user choice (DRY Principle).
+Event Loop: Employs a while True loop to keep the program running until an manual exit.
+Membership Validation: Uses if key in db to prevent system crashes from invalid inputs.
+F-Strings: Uses modern string interpolation for clean and fast output formatting.
+In one sentence: It is a Menu-Driven Dictionary Mapping system designed for high-speed data lookup and robust user interaction.
+
+
+
+
+
 🛠️ How It Works
 The system uses a key-value mapping system to retrieve data:
 Months: Input as 0.1 (1 month) through 0.12 (12 months).
